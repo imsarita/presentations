@@ -7,14 +7,26 @@ module.exports = {
     mode: process.env.NODE_ENV || "development",
     resolve: { modules: [path.resolve(__dirname, "src"), "node_modules"] },
     devServer: {
-        static: {
-          directory: path.join(__dirname, "public")
-        },
-    
-        compress: true,
-        port: 3010, // default 8000
+      static: {
+        directory: path.join(__dirname, "public")
       },
-    // devServer: { contentBase: path.join(__dirname, "src") },
+  
+      compress: true,
+      port: 3000, // default 8000
+    },
+    module: {
+        rules: [
+            { 
+                test: /\.(js|jsx)$/, 
+                exclude: /node_modules/, 
+                use: ["babel-loader"] 
+            },
+            { 
+                test: /\.(jpg|jpeg|png|gif|mp3|svg)$/,
+                use: ["file-loader"] 
+            },
+        ],
+    },
     plugins: [
         new HtmlWebpackPlugin({
             template: path.join(__dirname, "src", "index.html"),
