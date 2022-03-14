@@ -12,7 +12,7 @@ module.exports = {
       },
   
       compress: true,
-      port: 3000, // default 8000
+      port: 3010, // default 8000
     },
     module: {
         rules: [
