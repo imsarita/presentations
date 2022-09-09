@@ -1,6 +1,6 @@
 # scaling-journey
 
-> Scaling Journey is a collection of my presentations <
+> Scaling Journey is a collection of my presentations
 
 Installation:
 	 git config --global user.name "Your Name"
