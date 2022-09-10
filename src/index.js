@@ -146,7 +146,7 @@ const Presentation = () => (
 			<Text>How? </Text>
 			<OrderedList>
 				<Appear>
-					<ListItem>Splitting into components and made it efficient.</ListItem>
+					<ListItem>Splitting into components.</ListItem>
 				</Appear>
 			</OrderedList>
 		</Slide>
