@@ -1,6 +1,6 @@
 # scaling-journey
 ~~~~~~~~~~~~~~~~~~~~~~~~~ REACT ~~~~~~~~~~~~~~~~~~~~~~~~~
-Installation:
+Installation steps:
   @ git config --global user.name "Your Name"
   @ git config --global user.email "youremail@yourdomain.com" 
   @ git init
@@ -10,6 +10,7 @@ branch: presentation/react
   @ npm i
   @ npm start
 
-@ Things to know before u learn react (ofc js :P)
+The React presentation contains:
 @ React overview
 @ React setup
+@js Basics used in React
